@@ -154,7 +154,7 @@ header {
     background-color: #fff;
 }
 
-.services__item img {
+.services__item-img {
     padding-left: 39px;
     width: 98px;
     height: 90px;
@@ -763,6 +763,11 @@ header {
         }
         .articles__item-title {
             margin-top: 0;
+        }
+        .services__item-img {
+            width: 50%;
+            padding-left: auto;
+            padding-right: auto;
         }
     }
 }
